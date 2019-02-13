@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 if ( process.argv.length < 3 ) throw 'USAGE: node ' + process.argv[ 1 ] + ' data.json [ port ]'
 
 let		data			= JSON.parse( require( 'fs' ).readFileSync( process.argv[ 2 ] ) )
