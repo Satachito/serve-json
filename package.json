@@ -1,0 +1,17 @@
+{
+  "name": "serve-json",
+  "version": "1.0.0",
+  "description": "A mock server for any kind of JSON file",
+  "main": "index.js",
+  "scripts": {
+    "serve": "node index.js data.json",
+    "test": "node test.js",
+    "dump": "node dump.js data.json"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.4",
+    "node-fetch": "^2.3.0"
+  }
+}
