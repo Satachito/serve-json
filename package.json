@@ -1,6 +1,6 @@
 {
   "name": "serve-json",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "A mock server for any kind of JSON file",
   "main": "index.js",
   "bin": {
@@ -18,8 +18,7 @@
   "author": "Satachito",
   "license": "MIT",
   "dependencies": {
-    "express": "^4.16.4",
-    "node-fetch": "^2.3.0"
+    "express": "^4.16.4"
   },
   "keywords": [
     "npm",
